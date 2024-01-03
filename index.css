@@ -1,0 +1,111 @@
+#filmSerieDatalist {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textFieldSearch {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#listfromsearch {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*#textResultat {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+
+#search {
+    font-size: 25px;
+}
+
+body {
+    padding-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    background-image: url("image.jpg");
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: xx-large;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: white;
+    font-size: xx-large;
+}
+
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+label {
+    color: white;
+    font-size: xx-large;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: white;
+    font-size: xx-large;
+}
+
+#fin p {
+    color: white;
+    font-size: large;
+}
+
+button{
+    font-size: x-large;
+}
+
+#textResultat{
+    color : white;
+}
+
+#format-select,
+#movie-select {
+    font-size: 25px;
+}
+
+#movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie {
+    margin: 10px;
+    text-align: center;
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+}
